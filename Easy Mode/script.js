@@ -26,7 +26,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 }))
 
 function generateComputerChoice() {
-    // har pluset för att kunna trycka på samma knapp igen 
+   
    const randomNumber = Math.floor(Math.random() * 3) + 1
   
   if (randomNumber === 1) {
