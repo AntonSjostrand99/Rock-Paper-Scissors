@@ -54,7 +54,6 @@ function generateComputerChoice() {
 
 
 };
-  
 
 function getResult() {
   if (computerChoice === userChoice) {
@@ -94,7 +93,5 @@ function getResult() {
   resultDisplay.innerHTML = result
   playerScore.innerText = pScore;
   compScore.innerText = cScore;
-
-
 }
 
